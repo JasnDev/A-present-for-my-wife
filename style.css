@@ -1,0 +1,67 @@
+body {
+    background-image: url(Elementos/White+Heart+Desktop+Wallpaper.png);
+    margin: 0;
+    align-items: center;
+    padding: 0;
+}
+
+#eyes {
+    border: 5px solid;
+    border-color: white;
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    height: 100%;
+}
+
+#eyes:hover {
+    border-color: plum;
+}
+
+.eyesText {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(34, 6, 24);
+}
+
+#memoriesTitle {
+    margin-top: 8%;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    text-decoration: underline solid;
+}
+
+.memories {
+    width: 80%; /* Adjust width for responsiveness */
+    height: 23rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    align-items: normal;
+}
+
+.memories img {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+
+#text {
+    background-color: rgba(255, 255, 255, 0.401);
+    border: 5px dashed rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(60, 11, 43);
+}

@@ -1,0 +1,10 @@
+body{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHBqcHJiZ2t3dTM5bWNxOGJ2a29semh1cDcwOTN4M2UxMGM4Y2Q0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FlodpfQUBSp20/giphy.webp);
+}
+h1{
+    margin-top: 8%;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    text-decoration: underline solid;
+}
